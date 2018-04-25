@@ -1,0 +1,53 @@
+/*-LAYOUT */
+section {
+  background-color: #FF6347;
+  height: 80vh;
+  border-radius: 5px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
+  font-size:16px;
+  }
+  <style>
+  a:link {
+      color: 87cefa;
+      background-color: transparent;
+      text-decoration: none;
+  }
+
+  a:visited {
+      color: orange;
+      background-color: transparent;
+      text-decoration: none;
+  }
+
+  a:hover {
+      color: red;
+      background-color: transparent;
+      text-decoration: underline;
+  }
+
+  a:active {
+      color: yellow;
+      background-color: transparent;
+      text-decoration: underline;
+  }
+  </style>;
+
+.main {
+  background: ;
+  border-radius: 5px;
+  padding:1px;
+  font-size: 110%;
+}
+
+
+footer {
+  background-color: #00FFFF;
+  padding:1px;
+  height: 20vh;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size:14px;
+
+
+}
