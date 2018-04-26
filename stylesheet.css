@@ -9,28 +9,38 @@ section {
   }
   <style>
   a:link {
-      color: 87cefa;
+      color: 1e90ff;
       background-color: transparent;
       text-decoration: none;
+      span.navigationSpace {
+    margin-left: 50px;
+}
   }
 
   a:visited {
       color: orange;
       background-color: transparent;
       text-decoration: none;
+}span.navigationSpace {
+    margin-left: 140px;
+}
   }
 
   a:hover {
       color: red;
       background-color: transparent;
-      text-decoration: underline;
-
-
+      text-decoration: none;
+  }span.navigationSpace {
+    margin-left: 140px;
+}
 
   a:active {
       color: yellow;
       background-color: transparent;
-      text-decoration: underline;
+      text-decoration: none;
+      span.navigationSpace {
+    margin-left: 140px;
+}
   }
   </style>;
 
@@ -49,7 +59,9 @@ footer {
   font-family: 'Montserrat', sans-serif;
   font-weight: 700;
   font-size:14px;
+  span.navigationSpace {
+    margin-left: 50px;
+}
 
 
 }
-<p>
