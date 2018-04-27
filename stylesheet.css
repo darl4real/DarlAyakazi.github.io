@@ -1,67 +1,73 @@
 /*-LAYOUT */
 section {
-  background-color: #FF6347;
   height: 80vh;
-  border-radius: 5px;
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 900;
-  font-size:16px;
-  }
-  <style>
-  a:link {
-      color: 1e90ff;
-      background-color: transparent;
-      text-decoration: none;
-      span.navigationSpace {
-    margin-left: 50px;
-}
-  }
+  overflow:hidden;
 
-  a:visited {
-      color: orange;
-      background-color: transparent;
-      text-decoration: none;
-}span.navigationSpace {
-    margin-left: 140px;
 }
-  }
-
-  a:hover {
-      color: red;
-      background-color: transparent;
-      text-decoration: none;
-  }span.navigationSpace {
-    margin-left: 140px;
-}
-
-  a:active {
-      color: yellow;
-      background-color: transparent;
-      text-decoration: none;
-      span.navigationSpace {
-    margin-left: 140px;
-}
-  }
-  </style>;
-
-.main {
-  background: ;
-  border-radius: 5px;
-  padding:1px;
-  font-size: 110%;
-}
-
 
 footer {
-  background-color: #00FFFF;
-  padding:1px;
   height: 20vh;
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 700;
-  font-size:14px;
-  span.navigationSpace {
-    margin-left: 50px;
+   text-align: center;
+   overflow:hidden;
+}
+h1 {
+  text-align: center;
+}
+.container {
+  padding: 2em;
 }
 
+/* TYPOGRAPHY */
 
+body,
+html {
+  font-family: 'Montserrat', sans-serif;
+  font-size: calc(13px + 1vw);
+}
+h1 {
+  font-weight: 900;
+  font-size: 2rem;
+}
+p {
+  text-align: left;
+  line-height: 1.5;
+}
+
+footer a {
+  font-weight: 700;
+  font-size: 1.0em;
+  padding: 1vw 2vw;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: white;
+}
+section a {
+  font-weight: 700;
+  color: white;
+}
+/* THEME  */
+
+body {
+  background: cyan;
+  color:white;
+}
+
+header {
+  background: yellow;
+}
+
+section {
+  /* background: #607d8b; */
+  /* background: #e8cbc0; /* fallback for old browsers */
+  /* background: -webkit-linear-gradient(to right, #e8cbc0, #636fa4); /* Chrome 10-25, Safari 5.1-6 */
+  /* background: linear-gradient(to right, #e8cbc0, #636fa4); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */ */ */ */
+  background: #000000;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to top, #53346D, #000000);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to top, #53346D, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+footer {
+  background: cyan;
 }
