@@ -6,8 +6,10 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": " live-server",
-    "Deploy": " git push origin master",
-    "toteacher": "git push assignment master "
+    "deploy": " git push origin master",
+    "toTeacher": "git push assignment master "
+
+
   },
   "repository": {
     "type": "git",
@@ -18,11 +20,9 @@
   "bugs": {
     "url": "https://github.com/darl4real/DarlAyakazi.github.io/issues"
   },
+  
   "homepage": "https://github.com/darl4real/DarlAyakazi.github.io#readme",
   "dependencies": {
     "normalize.css": "^8.0.0"
-  },
-  "devDependencies": {
-    "live-server": "^1.2.0"
   }
 }
